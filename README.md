@@ -1,6 +1,7 @@
 # Sky_Domain18
 # Terry KM Song
 
-My very first repository.
-It stores all my codes.
+My first official C++ training repository.
+
+The repository holds all exercise files in C++.
 
