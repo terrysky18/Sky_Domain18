@@ -143,12 +143,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="NumericIntegral.h" />
+    <ClInclude Include="MortgageCalculator.hpp" />
+    <ClInclude Include="NumericIntegral.hpp" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Cpp-Finance.cpp" />
+    <ClCompile Include="MortgageCalculator.cpp" />
     <ClCompile Include="NumericIntegral.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

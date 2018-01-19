@@ -1,4 +1,74 @@
-﻿  NumericIntegral.cpp
-  Cpp-Finance.cpp
-  Generating Code...
+﻿  Cpp-Finance.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\complex(171): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\complex(170): note: while compiling class template member function 'int std::_Ctraits<_Ty>::sin(_Ty)'
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xcomplex(847): note: see reference to function template instantiation 'int std::_Ctraits<_Ty>::sin(_Ty)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xcomplex(847): note: see reference to class template instantiation 'std::_Ctraits<_Ty>' being compiled
+          with
+          [
+              _Ty=int
+          ]
+  c:\users\terry song\documents\repository\sky_domain18\cpp-finance\cpp-finance\cpp-finance.cpp(166): note: see reference to function template instantiation 'std::complex<int> std::sin<int>(const std::complex<int> &)' being compiled
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\complex(133): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\complex(132): note: while compiling class template member function 'int std::_Ctraits<_Ty>::cos(_Ty)'
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xcomplex(847): note: see reference to function template instantiation 'int std::_Ctraits<_Ty>::cos(_Ty)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\complex(106): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\complex(105): note: while compiling class template member function 'int std::_Ctraits<_Ty>::_Sinh(_Ty,_Ty)'
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xcomplex(847): note: see reference to function template instantiation 'int std::_Ctraits<_Ty>::_Sinh(_Ty,_Ty)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\complex(71): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\complex(70): note: while compiling class template member function 'int std::_Ctraits<_Ty>::_Cosh(_Ty,_Ty)'
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xcomplex(847): note: see reference to function template instantiation 'int std::_Ctraits<_Ty>::_Cosh(_Ty,_Ty)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\complex(181): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\complex(180): note: while compiling class template member function 'int std::_Ctraits<_Ty>::tan(_Ty)'
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xcomplex(768): note: see reference to function template instantiation 'int std::_Ctraits<_Ty>::tan(_Ty)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\complex(176): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\complex(175): note: while compiling class template member function 'int std::_Ctraits<_Ty>::sqrt(_Ty)'
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xcomplex(777): note: see reference to function template instantiation 'int std::_Ctraits<_Ty>::sqrt(_Ty)' being compiled
+          with
+          [
+              _Ty=int
+          ]
   Cpp-Finance.vcxproj -> C:\Users\Terry Song\Documents\Repository\Sky_Domain18\Cpp-Finance\Debug\Cpp-Finance.exe

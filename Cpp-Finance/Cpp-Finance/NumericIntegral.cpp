@@ -1,6 +1,6 @@
 #include "stdafx.h"
-#include "NumericIntegral.h"
-#include <math.h>
+#include "NumericIntegral.hpp"
+#include <cmath>
 
 // Constructor
 NumericIntegral::NumericIntegral()
