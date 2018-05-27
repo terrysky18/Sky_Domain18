@@ -6,6 +6,9 @@ A class for calculating mortgage payments and others
 #ifndef MortgageCalculator_HPP
 #define MortgageCalculator_HPP
 
+#include <cstring>
+using std::string;
+
 class MortgageCalculator
 {
 public:
@@ -23,6 +26,7 @@ public:
 	void setLengthInYear(double years_of_loan);
 
 	double getMonthlyPayment();
+	string getAmortisation();
 
 private:
 	double principal;
@@ -31,6 +35,11 @@ private:
 	double life_in_month;
 	double month_payment;
 	double monthly_interest;
+
+	double current_interest_payment;
+	double current_principal_payment;
+	double current_balance;
+	int current_loan_month;
 
 	void findMonthPayment();
 };

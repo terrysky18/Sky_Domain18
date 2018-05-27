@@ -1,7 +1,10 @@
 #include "stdafx.h"
 #include "MortgageCalculator.hpp"
 #include <cmath>
+#include <iostream>
+#include <cstring>
 
+using std::string;
 
 // Initialiser Constructor
 MortgageCalculator::MortgageCalculator()
@@ -12,6 +15,11 @@ MortgageCalculator::MortgageCalculator()
 	life_in_month = life_in_year * 12;
 	monthly_interest = interest_rate / 12;
 	month_payment = 0.0;
+
+	current_interest_payment = 0.0;
+	current_principal_payment = 0.0;
+	current_balance = principal;
+	current_loan_month = 0;
 }
 
 // Destructor
@@ -46,6 +54,15 @@ double MortgageCalculator::getMonthlyPayment()
 	}
 
 	return month_payment;
+}
+
+string MortgageCalculator::getAmortisation()
+{
+	string result = "";
+	for (current_loan_month = 1; current_loan_month < life_in_month; current_loan_month++) {
+		result += "CM:  ";
+
+	}
 }
 
 void MortgageCalculator::setPrincipal(double principal_amount)
