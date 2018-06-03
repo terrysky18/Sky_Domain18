@@ -1,0 +1,4 @@
+﻿  Net.cpp
+c:\users\terry song\documents\repository\sky_domain18\neural-net\neural-net\net.cpp(16): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\terry song\documents\repository\sky_domain18\neural-net\neural-net\net.cpp(18): warning C4018: '<': signed/unsigned mismatch
+  neural-net.vcxproj -> C:\Users\Terry Song\Documents\Repository\Sky_Domain18\neural-net\x64\Debug\neural-net.exe

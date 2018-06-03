@@ -1,19 +1,14 @@
+// Net.h
+// header file for Net class
+
 #ifndef NET_H
 #define NET_H
 
-#include<vector>
+#include "stdafx.h"
+#include <vector>
+#include "Neuron.h"
 
-using namespace std;
-
-class Neuron
-{
-public:
-	Neuron();
-	virtual ~Neuron();
-
-private:
-
-};
+using std::vector;
 
 // a layer of neurons
 typedef vector<Neuron> Layer;
@@ -23,7 +18,7 @@ class Net
 	// Simple implementation of neural net
 public:
 	// class constructor
-	Net(const vector<unsigned> &topology);
+	Net(const vector<int> &topology);
 	// virtual destructor
 	virtual ~Net();
 
