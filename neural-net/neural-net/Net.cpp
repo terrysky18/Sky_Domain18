@@ -10,7 +10,7 @@
 using namespace std;
 
 // class constructor
-Net::Net(const vector<int> &topology)
+Net::Net(const vector<int>& topology)
 {
 	// Define the number of layers in the neural network
 	unsigned numLayers = topology.size();
@@ -39,7 +39,7 @@ Net::Net(const vector<int> &topology)
 		{
 			// Use standard container function to access the last element
 			// use puch-back to add new neuron
-			m_layers.back().push_back(Neuron(numOutputs));
+			m_layers.back().push_back(Neuron(numOutputs, neuronNum));
 		}
 	}
 }
@@ -48,7 +48,7 @@ Net::Net(const vector<int> &topology)
 Net::~Net()
 {}
 
-void Net::feedForward(const vector<double> &input_values)
+void Net::feedForward(const vector<double>& input_values)
 {
 	// Verify input size is equal to number of neurons in the layer minue the bias
 	assert(input_values.size() == m_layers[0].size()-1);
@@ -73,8 +73,19 @@ void Net::feedForward(const vector<double> &input_values)
 	}
 }
 
-void Net::backPropagate(const vector<double> &target_values)
-{}
+void Net::backPropagate(const vector<double>& target_values)
+{
+	// back propagate the neural network with data to train the neural net
 
-void Net::getResults(vector<double> &result_values) const
+	// Calculate overall net error (Root Mean Square of output neuron errors)
+
+	// Calculate output layer gradients
+
+	// Calculate gradients on hidden layers
+
+	// For all layers from outputs to first hidden layer,
+	// update connection weights
+}
+
+void Net::getResults(vector<double>& result_values) const
 {}

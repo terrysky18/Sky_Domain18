@@ -22,9 +22,9 @@ public:
 	// virtual destructor
 	virtual ~Net();
 
-	void feedForward(const vector<double> &input_values);
-	void backPropagate(const vector<double> &target_values);
-	void getResults(vector<double> &result_values) const;
+	void feedForward(const vector<double>& input_values);
+	void backPropagate(const vector<double>& target_values);
+	void getResults(vector<double>& result_values) const;
 
 private:
 	// 2-dimensional matrix of Neurons, vector of vector: vector< vector<Neuron>>

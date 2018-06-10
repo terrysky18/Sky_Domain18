@@ -22,7 +22,7 @@ class Neuron
 	typedef vector<Neuron> Layer;
 
 public:
-	Neuron(const int numOutputs);
+	Neuron(int numOutputs, int myIndex);
 	virtual ~Neuron();
 
 	void setOutputVal(const double input_value);
@@ -31,10 +31,13 @@ public:
 
 private:
 	double m_outputVal;
+	int m_myIndex;	// index in the layer
 	vector<Connection> m_outputWeights;
 
 	// static member function to be shared
 	static double randomWeight();
+	static double transferFunction(double x);
+	static double diffTransFunction(double x);
 };
 
 #endif // !NEURON_H
